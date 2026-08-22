@@ -43,6 +43,10 @@ Two hard rules do most of the work:
 
 The full rule set, including the output template and worked good-vs-bad examples, is in [`SKILL.md`](SKILL.md).
 
+## Related
+
+[`deterministic-core-llm-surface-pattern`](https://github.com/mizcausevic-dev/deterministic-core-llm-surface-pattern): the companion skill for deciding where the LLM should and should not own logic in the first place. That skill draws the boundary; this one enforces that any claim about what happened on either side of it is backed by real evidence.
+
 ## Install
 
 **Claude Code:** copy this folder into `.claude/skills/evidence-labeling-protocol/` in your project (or your personal skills directory).
